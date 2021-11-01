@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="application/json" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+       <!-- CSS only -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <link>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+       </script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <title>Edward Castro Betancourt- Reto 4</title>
+
+</head>
+<body>
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script> 
+    <h1 style="text-align:center;">Categorias</h1>
+    <div id="resultado1"></div>
+    <button onclick="traerInformacionCategorias()" > Consultar Categorias</button>
+  
+    <div>
+        <!--<input type="text" id="Cname" placeholder="name">-->
+        <label for="status">Seleccione:</label>
+        <select name="cat" id="Cname">
+            <option value=""selected></option>
+            <option value="Cat 100">Cat 100</option>
+            <option value="Cat 125">Cat 125</option>
+            <option value="Cat 250" >Cat 250</option>
+            <option value="Cat 500">Cat 500</option>
+            <option value="Cat 1000">Cat 1000</option>
+            </select> 
+        <input type="text" id="Cdescription" placeholder="description">
+        
+            
+    </div>
+
+    <button onclick="guardarInformacionCategorias()">Guardar Categorias</button>
+</body>
+</html> 

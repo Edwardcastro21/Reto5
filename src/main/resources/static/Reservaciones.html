@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="application/json" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <link>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+       </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <title>Edward Castro Betancourt- Reto 4</title>
+
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+    <h1 style="text-align:center;">Reservaciones</h1>
+    <div id="resultado5"></div>
+    <button onclick="traerInformacionReservacion()" > Consultar Reservaciones</button>
+    
+    <div>
+        <input type="date" id="startDate" placeholder="startDate">
+        <input type="date" id="devolutionDate" placeholder="devolutionDate">
+        <label for="status">Seleccione:</label>
+        <select name="status" id="status">
+            <option value=""selected></option>
+            <option value="cancelled">cancelled</option>
+            <option value="completed" >completed</option>
+            </select> 
+        
+        
+    </div>
+    <button onclick="guardarInformacionReservacion()">Guardar Reservacion</button>
+</body>
+</html>
